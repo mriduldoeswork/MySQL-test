@@ -20,14 +20,14 @@ created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 
 INSERT INTO customers (first_name, last_name, email, city)
 VALUES
-('Rahul', 'Sharma', '[rahul@example.com](mailto:rahul@example.com)', 'Delhi'),
-('Priya', 'Verma', '[priya@example.com](mailto:priya@example.com)', 'Mumbai'),
-('Amit', 'Patel', '[amit@example.com](mailto:amit@example.com)', 'Ahmedabad'),
-('Sneha', 'Reddy', '[sneha@example.com](mailto:sneha@example.com)', 'Hyderabad'),
-('Arjun', 'Mehta', '[arjun@example.com](mailto:arjun@example.com)', 'Pune'),
-('Neha', 'Singh', '[neha@example.com](mailto:neha@example.com)', 'Delhi'),
-('Vikram', 'Joshi', '[vikram@example.com](mailto:vikram@example.com)', 'Jaipur'),
-('Ananya', 'Iyer', '[ananya@example.com](mailto:ananya@example.com)', 'Chennai');
+('Rahul', 'Sharma', 'rahul@gmail.com', 'Delhi'),
+('Priya', 'Verma', 'priya@gmail.com', 'Mumbai'),
+('Amit', 'Patel', 'amit@gmail.com', 'Ahmedabad'),
+('Sneha', 'Reddy', 'sneha@gmail.com', 'Hyderabad'),
+('Arjun', 'Mehta', 'arjun@gmail.com', 'Pune'),
+('Neha', 'Singh', 'neha@gmail.com', 'Delhi'),
+('Vikram', 'Joshi', 'vikram@gmail.com', 'Jaipur'),
+('Ananya', 'Iyer', 'ananya@gmail.com', 'Chennai');
 
 -- ==========================================
 -- 2. CATEGORIES
