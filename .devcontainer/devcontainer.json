@@ -5,7 +5,7 @@
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "shutdownAction": "stopCompose",
 
-  "postCreateCommand": "rm -f \"$(git rev-parse --git-path hooks/pre-push)\"",
+  "postCreateCommand": "rm -f \"$(git rev-parse --git-path hooks/post-commit)\" \"$(git rev-parse --git-path hooks/pre-push)\" \"$(git rev-parse --git-path hooks/post-checkout)\" \"$(git rev-parse --git-path hooks/post-merge)\"",
 
   "customizations": {
     "vscode": {
